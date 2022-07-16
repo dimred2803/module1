@@ -8,7 +8,7 @@ public class Task3 {
                 c = Math.sqrt((x2 - x3) * (x2 - x3) + (y2 - y3) * (y2 - y3));
 
 
-        if (a + b <= c || a + c <= b || a + c <= b) {
+        if (a + b <= c || a + c <= b || b + c <= a) {
             System.out.println("this triangle does not exist according to the triangle inequality");
             return 0;
         }
