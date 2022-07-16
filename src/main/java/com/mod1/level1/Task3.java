@@ -26,6 +26,5 @@ public class Task3 {
         int y1 = 0, y2 = 6, y3 = 1;
 
         System.out.println("Area of a triangle: " + func3(x1,y1,x2,y2,x3,y3));
-        System.out.println("something");
     }
 }
